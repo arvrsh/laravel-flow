@@ -8,7 +8,7 @@
  * Author:  flow.cl
  */
 
-namespace CokeCancino\LaravelFlow;
+namespace Arvrsh\LaravelFlow;
 
 use Exception;
 

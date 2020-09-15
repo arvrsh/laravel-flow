@@ -1,6 +1,6 @@
 <?php
 
-namespace CokeCancino\LaravelFlow\Facades;
+namespace Arvrsh\LaravelFlow\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,6 +8,6 @@ class Flow extends Facade
 {
     protected static function getFacadeAccessor()
     {
-        return \CokeCancino\LaravelFlow\Flow::class;
+        return \Arvrsh\LaravelFlow\Flow::class;
     }
 }

@@ -1,22 +1,26 @@
 {
-    "name": "cokecancino/laravel-flow",
-    "description": "Laravel package para la integración de pagos con Flow (https://www.flow.cl)",
-    "keywords": ["laravel", "flow", "pagos", "webpay", "transbank", "servipag", "multicaja", "chile"],
-    "homepage": "https://github.com/cokecancino/laravel-flow",
+    "name": "arvrsh/laravel-flow",
+    "description": "Laravel package para la integración de pagos con Flow (https://www.flow.cl) originalmente creado por Jorge Cancino Flores",
+    "keywords": ["laravel", "flow", "pagos", "webpay", "transbank", "servipag", "multicaja", "chile", "mach"],
+    "homepage": "https://github.com/arvrsh/laravel-flow",
     "license": "MIT",
     "authors": [
         {
             "name": "Jorge Cancino Flores",
             "email": "jorgecancinof@gmail.com"
+        },
+        {
+            "name" : "Álvaro Godoy García",
+            "email" : "alvarogodoyg@gmail.com"
         }
     ],
     "require": {
         "php": ">=5.4.0",
-        "illuminate/support": "~5.0"
+        "illuminate/support": "~5.0|^6.0|^7.0"
     },
     "autoload": {
         "psr-4": {
-            "CokeCancino\\LaravelFlow\\": "src/"
+            "Arvrsh\\LaravelFlow\\": "src/"
         }
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace CokeCancino\LaravelFlow;
+namespace Arvrsh\LaravelFlow;
 
 use Illuminate\Support\ServiceProvider;
 

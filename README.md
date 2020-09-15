@@ -1,8 +1,8 @@
 # Laravel Flow
 
 Laravel package para la integración de pagos con [Flow](https://www.flow.cl)
-
-Testeado con Laravel 5.1 y 5.5
+Este es un fork de `cokecancino/laravel-flow` . 
+Testeado con Laravel 5.1 y 5.5, 6.0 (?)
 
 ## Instalación
 
@@ -18,7 +18,7 @@ En el archivo `config/app.php`, agregar la siguiente línea al array `providers`
 ```php
 'providers' => [
     …
-    CokeCancino\LaravelFlow\FlowServiceProvider::class,
+    Arvrsh\LaravelFlow\FlowServiceProvider::class,
     …
 ],
 ```
@@ -29,7 +29,7 @@ En el mismo archivo, agregar la siguiente línea al array `aliases`:
 ```php
 'aliases' => [
     …
-    'Flow' => CokeCancino\LaravelFlow\Facades\Flow::class,
+    'Flow' => Arvrsh\LaravelFlow\Facades\Flow::class,
     …
 ],
 ```
@@ -37,7 +37,7 @@ En el mismo archivo, agregar la siguiente línea al array `aliases`:
 ### Paso 4: Publicar el archivo de configuración
 
 ```sh
-$ php artisan vendor:publish --provider="CokeCancino\LaravelFlow\FlowServiceProvider" --force
+$ php artisan vendor:publish --provider="Arvrsh\LaravelFlow\FlowServiceProvider" --force
 ```
 
 ### Paso 5: Configura tu `.env` o modifica tu `config/flow.php`
